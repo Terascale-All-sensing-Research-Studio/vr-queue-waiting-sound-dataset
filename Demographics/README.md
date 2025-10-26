@@ -6,7 +6,7 @@ The following demographic information was collected from each participant:
 | ------------- | ------------- | ------------- |
 | 1 | Participant ID | Unique 5-character ID assigned to each participant | 	
 | 2 | Age	| Text box | 
-| 3 | Ethnicity	| Hispanic or Latino; Non Hispanic or Latino | 
+| 3 | Ethnicity	| Hispanic or Latino; Not Hispanic or Latino | 
 | 4 | Race (select one or more choices)	| American Indian or Alaska Native; Asian; Black or African American; Native Hawaiian or Other Pacific Islander; White | 
 | 5 | Self-Identified Gender | Text box |	
 | 6 | What is your education level | Less than high school diploma; High school diploma or GED; Some college, but no degree; Associates degree; Bachelor's degree; Master's degree; Professional degree; Doctorate |	
