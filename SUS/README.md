@@ -1,6 +1,6 @@
 # System Usability Scale (SUS)
 
-The standard System Usability Scale (SUS) was administered at the end of the study and scaled from 0 to 100 [[1]](#1). The SUS consists of the following questions:
+The standard System Usability Scale (SUS) was administered at the end of the study [[1]](#1). The SUS consists of the following questions:
 
 * I like to use this system frequently?
 * I find this system to be more complicated than it should be?	
