@@ -1,6 +1,6 @@
 # NASA Task Load Index (NASA TLX)
 
-The 21-tick version of the NASA TLX was administered at the end of the study. The resulting data is scaled from 0-100. The NASA TLX consists of the following questions:
+The 21-tick version of the NASA TLX was administered at the end of the study[[1]](#1). The resulting data is scaled from 0-100. The NASA TLX consists of the following questions:
 
 * Mental Demand: How much mental and perceptual activity was required? (Very Low to Very High)
 * Physical Demand: How much physical activity was required? (Very Low to Very High)
@@ -18,3 +18,7 @@ The 21-tick version of the NASA TLX was administered at the end of the study. Th
 | 5 | Performance | 0 - 100 |
 | 6 | Effort | 0 - 100 |
 | 7 | Frustration | 0 - 100 |
+
+## References
+<a id="1">[1]</a>
+Hart, Sandra G., and Lowell E. Staveland. "Development of NASA-TLX (Task Load Index): Results of empirical and theoretical research." Advances in psychology. Vol. 52. North-Holland, 1988. 139-183.
