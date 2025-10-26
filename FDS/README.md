@@ -1,6 +1,6 @@
 # Frustration Discomfort Scale (FDS)
 
-The standard Frustration Discomfort Scale (FDS) was administered at the start and end of the study [[1]](#1). The FDS asks participants to rate their frustration and discomfort through the following questions:
+The standard Frustration Discomfort Scale (FDS) was administered at the start and [end](https://github.com/Terascale-All-sensing-Research-Studio/vr-queue-waiting-sound-dataset/blob/main/FDS/post_fds.csv) of the study [[1]](#1). The FDS asks participants to rate their frustration and discomfort through the following questions:
 
 * I need the easiest way around problems; I can’t stand making a hard time of it
 * I can’t stand having to wait for things I would like now
