@@ -4,7 +4,7 @@ Our study consisted of two treatments:
 1.	With Notification: In this treatment the participant is informed by the virtual receptionist that there is a problem with the computer system, therefore providing an explanation of the wait. 
 2.	Without Notification: In this treatment, the virtual receptionist does not inform the participant on why there is a delay.   
 
-We anchor the addition of notification based on findings by Maister [[1]](#1) which shows that unexplained waits are perceived to be longer. Each participant completed both treatments, i.e., the receptionist NPC either informing or not informing about the reason for the delay, however, the order of the treatments was randomized for each participant. 
+We anchor the addition of notification based on findings by Maister [[1]](#1) which shows that unexplained waits are perceived to be longer. Each participant completed both treatments, i.e., the virtual receptionist either informing or not informing about the reason for the delay, however, the order of the treatments was randomized for each participant. 
 
 | Dataset Column | Data | Response Value | 
 | ------------- | ------------- | ------------- |
