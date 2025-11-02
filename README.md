@@ -1,4 +1,4 @@
-## Dataset of Perceptions of Waiting in a Doctor's Office Receptionist Queue With and Without Notifications in Virtual Reality (VR) 
+## Dataset of Perceptions of Waiting in a Virtual Reality (VR) Doctor's Office Receptionist Queue With and Without Notifications on the Reason for a Delay 
 
 ## Contents
 [Description](#description)
