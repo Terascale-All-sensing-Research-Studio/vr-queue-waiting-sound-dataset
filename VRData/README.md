@@ -17,3 +17,15 @@ Each of the 30 folders here represents a single participant. The folder is named
 | LeftHandLog_ WITHOUT_NOTIFICATION.csv	| ParticipantID/ParticipantID_WITHOUT_NOTIFICATION |
 | RightHandLog_ WITHOUT_NOTIFICATION.csv	| ParticipantID/ParticipantID_WITHOUT_NOTIFICATION |
 
+The content stored in each of these 8 CSV files per participant are as follows:
+
+| Filename |	Content |
+| -------- | -------- |
+| EyeGazeLog_NOTIFICATION.csv	| **Timestamp(ns):** Epoch time stamp for when the eye gaze event was recorded.<br> **GameTime:** Game time stamp for when the eye gaze event was recorded.<br>**ObjectName:** Human readable name for the scene object for the eye gaze.<br> **HitPosition:** x, y, and z location of the eye gaze hit location. |
+| HeadPositionLog_NOTIFICATION.csv	| **Timestamp(ns):** Epoch time stamp for when the head movement was recorded.<br> **GameTime:** Game time stamp for when the head movement was recorded.<br> **HeadPosition:** x, y, z position of the head.<br> **HeadRotation:** X, Y, and Z rotation of the head.|
+| LeftHandLog_NOTIFICATION.csv	| **Timestamp(ns):** Epoch time stamp for when the left hand movement was recorded.<br> **GameTime:** Game time stamp for when the left hand movement was recorded.<br> **LeftHandPosition:** x, y, z position of the left hand.<br> **LeftHandRotation:** X, Y, and Z rotation of the left hand.
+| RightHandLog_NOTIFICATION.csv	| **Timestamp(ns):** Epoch time stamp for when the right hand movement was recorded.<br> **GameTime:** Game time stamp for when the right hand movement was recorded.<br> **RightHandPosition:** x, y, z position of the right hand.<br> **RightHandRotation:** X, Y, and Z rotation of the right hand.
+| EyeGazeLog_WITHOUT_NOTIFICATION.csv	| **Timestamp(ns):** Epoch time stamp for when the eye gaze event was recorded.<br> **GameTime:** Game time stamp for when the eye gaze event was recorded.<br> **ObjectName:** Human readable name for the scene object for the eye gaze.<br> **HitPosition:** x, y, and z location of the eye gaze hit location.
+| HeadPositionLog_ WITHOUT_NOTIFICATION.csv	| **Timestamp(ns):** Epoch time stamp for when the head movement was recorded.<br> **GameTime:** Game time stamp for when the head movement was recorded.<br> **HeadPosition:** x, y, z position of the head.<br> **HeadRotation:** X, Y, and Z rotation of the head. |
+| LeftHandLog_ WITHOUT_NOTIFICATION.csv	| **Timestamp(ns):** Epoch time stamp for when the left hand movement was recorded.<br> **GameTime:** Game time stamp for when the left hand movement was recorded.<br> **LeftHandPosition:** x, y, z position of the left hand.<br> **LeftHandRotation:** X, Y, and Z rotation of the left hand. |
+| RightHandLog_ WITHOUT_NOTIFICATION.csv	| **Timestamp(ns):** Epoch time stamp for when the right hand movement was recorded.<br> **GameTime:** Game time stamp for when the right hand movement was recorded.<br> **RightHandPosition:** x, y, z position of the right hand.<br> **RightHandRotation:** X, Y, and Z rotation of the right hand. |
