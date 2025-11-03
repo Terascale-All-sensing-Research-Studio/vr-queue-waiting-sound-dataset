@@ -28,7 +28,7 @@ The dataset is organized into the following folders:
 | TreatmentResponses |	None |	CSV	| Participant responses to each treatment, i.e., being notified about the reason for the wait (With_Notification) or not being notified about the reason (Without_Notification). Participant responses include their time estimate for the wait in minutes, their frustration level on a 5-point Likert scale (1 being lowest and 5 highest), and their likelihood to exit on a 5-point Likert scale. Each participant is assigned a unique 5-character ID.
 | VRData	| Yes	| CSV	| Contains 30 subfolders that represents each participant. Each subfolder is named with the unique 5-character ID. Within each participant subfolder there are two additional subfolders named ParticipantID_NOFICATION and ParticipantID_WITHOUT_NOTIFICATION. Here Participant_ID is the unique 5-character ID and NOTIFICATION and WITHOUT_NOTIFICATION indicates that the participant was and was not informed about the reason for the delay respectively. Within the ParticipantID_NOFICATION and ParticipantID_WITHOUT_NOTIFICATION subfolders are four CSV files for Eye Gaze (EyeGazeLog), Head Position and Orientation (HeadPosition), Left Hand (LeftHandLog), and Right Hand (RightHandLog). Thus, each participant has 8 CSV files. |
 
-# Dataset Frame Rate Summary
+### Dataset Frame Rate Summary
 The minimum (Min), maximum (Max), and average (Mean) frame rate for the head, eye gaze, right hand, and left hand for our dataset are provided below.  
 
 | Treatment | Type of Data | Min | Max | Mean | SD |
