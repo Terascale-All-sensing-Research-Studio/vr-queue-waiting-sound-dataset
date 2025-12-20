@@ -68,7 +68,16 @@ VRData/
     └── README.md
 LICENSE
 README.md
+dictionary.csv
 ```
+## Data Dictionary
+The file [dictionary.csv](https://github.com/Terascale-All-sensing-Research-Studio/vr-queue-waiting-sound-dataset/blob/main/dictionary.csv) provides a summary of the data found in the CSV files in our dataset. The file contains the following information:
+
+| Column | Description |
+| ------ | ----------- |
+| Directory/FileName | Provides the directory and filename, e.g., Demographics/demographics.csv |
+| ColumnName | Provides the column name for the file being referenced in Directory/FileName, e.g., Participant ID |
+| Value | Provides detailed information of the value stored in ColumnName, e.g., Unique 5-character ID assigned to each participant |
 
 ## Dataset Frame Rate Summary
 The minimum (Min), maximum (Max), and average (Mean) frame rate, as frames per second, for the head, eye gaze, right hand, and left hand for our dataset are provided below.  
