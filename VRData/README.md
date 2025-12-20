@@ -29,3 +29,21 @@ The content stored in each of these 8 CSV files per participant are as follows:
 | HeadPositionLog_WITHOUT_NOTIFICATION.csv	| **Timestamp(ns):** Epoch time stamp for when the head movement was recorded.<br> **GameTime:** Game time stamp for when the head movement was recorded.<br> **HeadPosition:** x, y, z position of the head.<br> **HeadRotation:** X, Y, and Z rotation of the head. |
 | LeftHandLog_WITHOUT_NOTIFICATION.csv	| **Timestamp(ns):** Epoch time stamp for when the left hand movement was recorded.<br> **GameTime:** Game time stamp for when the left hand movement was recorded.<br> **LeftHandPosition:** x, y, z position of the left hand.<br> **LeftHandRotation:** X, Y, and Z rotation of the left hand. |
 | RightHandLog_WITHOUT_NOTIFICATION.csv	| **Timestamp(ns):** Epoch time stamp for when the right hand movement was recorded.<br> **GameTime:** Game time stamp for when the right hand movement was recorded.<br> **RightHandPosition:** x, y, z position of the right hand.<br> **RightHandRotation:** X, Y, and Z rotation of the right hand. |
+
+We provide the directory tree below for one example participant (0GR0B):
+
+```
+VRData/
+    ├── 0GR0B/
+        ├── 0GR0B_NOTIFICATION/
+            ├── EyeGazeLog_NOTIFICATION.csv
+            ├── HeadPositionLog_NOTIFICATION.csv
+            ├── LeftHandLog_NOTIFICATION.csv
+            └── RightHandLog_NOTIFICATION.csv
+        └── 0GR0B_WITHOUT_NOTIFICATION/
+            ├── EyeGazeLog_WITHOUT_NOTIFICATION.csv
+            ├── HeadPositionLog_WITHOUT_NOTIFICATION.csv
+            ├── LeftHandLog_WITHOUT_NOTIFICATION.csv
+            └── RightHandLog_WITHOUT_NOTIFICATION.csv
+    └── README.md
+```
