@@ -45,5 +45,4 @@ VRData/
             ├── HeadPositionLog_WITHOUT_NOTIFICATION.csv
             ├── LeftHandLog_WITHOUT_NOTIFICATION.csv
             └── RightHandLog_WITHOUT_NOTIFICATION.csv
-    └── README.md
 ```
