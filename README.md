@@ -7,6 +7,8 @@
 
 [Overview of Dataset](#overview-of-dataset)
 
+[Directory Tree](#directory-tree)
+
 ## Description
 The dataset consists of 30 participants standing in queue in a virtual doctor’s office receptionist area designed using Unity 2022.3.9 f1. Each participant stands in the queue for 3-minutes before approaching the virtual receptionist to confirm their doctor’s appointment. Each participant provides data across two treatments, once when the virtual receptionist informs them on why there is a delay and once when the receptionist does not. The reason for the delay is stated as a problem with the virtual receptionist’s computer system. Participants complete both treatments, however, the order of assignment of treatments is randomized. Data is collected from within the VR environment using a Meta Quest Pro. Prior to immersion into the VR environment, participants complete a demographics form and the Frustration Discomfort Scale. After each treatment, participants answer a 3-question survey on the length of delay, their frustration at the delay measured on a 5-point Likert scale, and their likelihood to exit due to the delay, also measured on a 5-point Likert scale. After both treatments, participants complete a second Frustration Discomfort Scale as well as the NASA Task Load Index, System Usability Scale, and Virtual Reality Sickness Questionnaire. Each participant provides data in a single session lasting 1-hour. For each participant we recorded: eye gaze hit locations, objects viewed per timestamp based on the gaze ray intersections with scene objects, headset position and orientation, and left and right hand position and orientation.   
 
@@ -28,6 +30,7 @@ The dataset is organized into the following folders:
 | [TreatmentResponses](https://github.com/Terascale-All-sensing-Research-Studio/vr-queue-waiting-sound-dataset/blob/main/TreatmentResponses/) |	None |	CSV	| Participant responses to each treatment, i.e., being notified about the reason for the wait (With_Notification) or not being notified about the reason (Without_Notification). Participant responses include their time estimate for the wait in minutes, their frustration level on a 5-point Likert scale (1 being lowest and 5 highest), and their likelihood to exit on a 5-point Likert scale and are stored in a single CSV file called [TreatmentResponses.csv](https://github.com/Terascale-All-sensing-Research-Studio/vr-queue-waiting-sound-dataset/blob/main/TreatmentResponses/TreatmentResponses.csv). Each participant is assigned a unique 5-character ID.
 | [VRData](https://github.com/Terascale-All-sensing-Research-Studio/vr-queue-waiting-sound-dataset/blob/main/VRData/)	| Yes	| CSV	| Contains 30 subfolders that represents each participant. Each subfolder is named with the unique 5-character ID. Within each participant subfolder there are two additional subfolders named ParticipantID_NOFICATION and ParticipantID_WITHOUT_NOTIFICATION. Here Participant_ID is the unique 5-character ID and NOTIFICATION and WITHOUT_NOTIFICATION indicates that the participant was and was not informed about the reason for the delay respectively. Within the ParticipantID_NOFICATION and ParticipantID_WITHOUT_NOTIFICATION subfolders are four CSV files for Eye Gaze (EyeGazeLog), Head Position and Orientation (HeadPosition), Left Hand (LeftHandLog), and Right Hand (RightHandLog). Thus, each participant has 8 CSV files. |
 
+## Directory Tree
 We provide the directory tree below for the entire repository and the tree for one example participant (0GR0B) in the VRData folder:
 
 ```
@@ -67,7 +70,7 @@ LICENSE
 README.md
 ```
 
-### Dataset Frame Rate Summary
+## Dataset Frame Rate Summary
 The minimum (Min), maximum (Max), and average (Mean) frame rate, as frames per second, for the head, eye gaze, right hand, and left hand for our dataset are provided below.  
 
 | Treatment | Type of Data | Min | Max | Mean | SD |
