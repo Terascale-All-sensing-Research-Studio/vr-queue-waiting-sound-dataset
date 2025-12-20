@@ -30,6 +30,7 @@ The dataset is organized into the following folders:
 
 We provide the directory tree below for one example participant (0GR0B):
 
+'''
 Cybersickness/
     ├── cybersickness.csv
     └── README.md
@@ -64,6 +65,7 @@ VRData/
     └── README.md
 LICENSE
 README.md
+'''
 
 ### Dataset Frame Rate Summary
 The minimum (Min), maximum (Max), and average (Mean) frame rate, as frames per second, for the head, eye gaze, right hand, and left hand for our dataset are provided below.  
