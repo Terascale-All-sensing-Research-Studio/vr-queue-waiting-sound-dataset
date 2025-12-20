@@ -28,6 +28,43 @@ The dataset is organized into the following folders:
 | [TreatmentResponses](https://github.com/Terascale-All-sensing-Research-Studio/vr-queue-waiting-sound-dataset/blob/main/TreatmentResponses/) |	None |	CSV	| Participant responses to each treatment, i.e., being notified about the reason for the wait (With_Notification) or not being notified about the reason (Without_Notification). Participant responses include their time estimate for the wait in minutes, their frustration level on a 5-point Likert scale (1 being lowest and 5 highest), and their likelihood to exit on a 5-point Likert scale and are stored in a single CSV file called [TreatmentResponses.csv](https://github.com/Terascale-All-sensing-Research-Studio/vr-queue-waiting-sound-dataset/blob/main/TreatmentResponses/TreatmentResponses.csv). Each participant is assigned a unique 5-character ID.
 | [VRData](https://github.com/Terascale-All-sensing-Research-Studio/vr-queue-waiting-sound-dataset/blob/main/VRData/)	| Yes	| CSV	| Contains 30 subfolders that represents each participant. Each subfolder is named with the unique 5-character ID. Within each participant subfolder there are two additional subfolders named ParticipantID_NOFICATION and ParticipantID_WITHOUT_NOTIFICATION. Here Participant_ID is the unique 5-character ID and NOTIFICATION and WITHOUT_NOTIFICATION indicates that the participant was and was not informed about the reason for the delay respectively. Within the ParticipantID_NOFICATION and ParticipantID_WITHOUT_NOTIFICATION subfolders are four CSV files for Eye Gaze (EyeGazeLog), Head Position and Orientation (HeadPosition), Left Hand (LeftHandLog), and Right Hand (RightHandLog). Thus, each participant has 8 CSV files. |
 
+We provide the directory tree below for one example participant (0GR0B):
+
+Cybersickness/
+    ├── cybersickness.csv
+    └── README.md
+Demographics/
+    ├── demographics.csv
+    └── README.md
+FDS/
+    ├── post_fds.csv
+    ├── pre_fds.csv
+    └── README.md
+NASA_TLX/
+    ├── nasatlx.csv
+    └── README.md
+SUS/
+    ├── README.md
+    └── sus.csv
+TreatmentResponses/
+    ├── README.md
+    └── TreatmentResponses.csv
+VRData/
+    ├── 0GR0B/
+        ├── 0GR0B_NOTIFICATION/
+            ├── EyeGazeLog_NOTIFICATION.csv
+            ├── HeadPositionLog_NOTIFICATION.csv
+            ├── LeftHandLog_NOTIFICATION.csv
+            └── RightHandLog_NOTIFICATION.csv
+        └── 0GR0B_WITHOUT_NOTIFICATION/
+            ├── EyeGazeLog_WITHOUT_NOTIFICATION.csv
+            ├── HeadPositionLog_WITHOUT_NOTIFICATION.csv
+            ├── LeftHandLog_WITHOUT_NOTIFICATION.csv
+            └── RightHandLog_WITHOUT_NOTIFICATION.csv
+    └── README.md
+LICENSE
+README.md
+
 ### Dataset Frame Rate Summary
 The minimum (Min), maximum (Max), and average (Mean) frame rate, as frames per second, for the head, eye gaze, right hand, and left hand for our dataset are provided below.  
 
