@@ -19,7 +19,7 @@ Each of the 30 folders here represents a single participant. The folder is named
 
 The content stored in each of these 8 CSV files per participant are as follows:
 
-| Filename |	Content |
+| Filename |	VariableName: Content |
 | -------- | -------- |
 | EyeGazeLog_NOTIFICATION.csv	| **Timestamp(ns):** Epoch time stamp for when the eye gaze event was recorded.<br> **GameTime:** Game time stamp for when the eye gaze event was recorded.<br>**ObjectName:** Human readable name for the scene object for the eye gaze.<br> **HitPosition:** x, y, and z location of the eye gaze hit location. |
 | HeadPositionLog_NOTIFICATION.csv	| **Timestamp(ns):** Epoch time stamp for when the head movement was recorded.<br> **GameTime:** Game time stamp for when the head movement was recorded.<br> **HeadPosition:** x, y, z position of the head.<br> **HeadRotation:** X, Y, and Z rotation of the head.|
