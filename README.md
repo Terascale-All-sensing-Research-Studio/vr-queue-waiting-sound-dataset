@@ -73,7 +73,16 @@ README.md
 dictionary.csv
 ```
 ## Data Dictionary
-The file [dictionary.csv](https://github.com/Terascale-All-sensing-Research-Studio/vr-queue-waiting-sound-dataset/blob/main/dictionary.csv) provides a summary of the data found in the CSV files in our dataset. The file contains the following information:
+The file [dictionary.csv](https://github.com/Terascale-All-sensing-Research-Studio/vr-queue-waiting-sound-dataset/blob/main/dictionary.csv) provides a summary of the data found in the following CSV files in our dataset: 
+* [Cybersickess/cybersickness.csv](https://github.com/Terascale-All-sensing-Research-Studio/vr-queue-waiting-sound-dataset/blob/main/Cybersickness/cybersickness.csv)
+* [Demographics/demographics.csv](https://github.com/Terascale-All-sensing-Research-Studio/vr-queue-waiting-sound-dataset/blob/main/Demographics/demographics.csv)
+* [FDS/pre_fds.csv](https://github.com/Terascale-All-sensing-Research-Studio/vr-queue-waiting-sound-dataset/blob/main/FDS/pre_fds.csv)
+* [FDS/post_fds.csv](https://github.com/Terascale-All-sensing-Research-Studio/vr-queue-waiting-sound-dataset/blob/main/FDS/post_fds.csv)
+* [NASA_TLX/nasatlx.csv](https://github.com/Terascale-All-sensing-Research-Studio/vr-queue-waiting-sound-dataset/blob/main/NASA_TLX/nasatlx.csv)
+* [SUS/sus.csv](https://github.com/Terascale-All-sensing-Research-Studio/vr-queue-waiting-sound-dataset/blob/main/SUS/sus.csv)
+* [TreatmentResponses/TreatmentResponses.csv](https://github.com/Terascale-All-sensing-Research-Studio/vr-queue-waiting-sound-dataset/blob/main/TreatmentResponses/TreatmentResponses.csv)
+
+The file contains the following information:
 
 | Column | Description |
 | ------ | ----------- |
