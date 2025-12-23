@@ -39,41 +39,61 @@ The dataset is organized into the following folders:
 We provide the directory tree below for the entire repository and the tree for one example participant (0GR0B) in the VRData folder:
 
 ```
-Cybersickness/
-    ├── cybersickness.csv
-    └── README.md
-Demographics/
-    ├── demographics.csv
-    └── README.md
-FDS/
-    ├── post_fds.csv
-    ├── pre_fds.csv
-    └── README.md
-NASA_TLX/
-    ├── nasatlx.csv
-    └── README.md
-SUS/
-    ├── README.md
-    └── sus.csv
-TreatmentResponses/
-    ├── README.md
-    └── TreatmentResponses.csv
-VRData/
-    ├── 0GR0B/
-        ├── 0GR0B_NOTIFICATION/
-            ├── EyeGazeLog_NOTIFICATION.csv
-            ├── HeadPositionLog_NOTIFICATION.csv
-            ├── LeftHandLog_NOTIFICATION.csv
-            └── RightHandLog_NOTIFICATION.csv
-        └── 0GR0B_WITHOUT_NOTIFICATION/
-            ├── EyeGazeLog_WITHOUT_NOTIFICATION.csv
-            ├── HeadPositionLog_WITHOUT_NOTIFICATION.csv
-            ├── LeftHandLog_WITHOUT_NOTIFICATION.csv
-            └── RightHandLog_WITHOUT_NOTIFICATION.csv
-    └── README.md
-LICENSE
-README.md
-dictionary.csv
+├── Assets/
+│   ├── No_Sound_Audio_Files/
+│   │   ├── Keyboard.mp3
+│   │   ├── MaleNPC_Mhhm.mp3
+│   │   ├── MaleNPC_Ok.mp3
+│   │   ├── Recep_CheckedInOnline.mp3
+│   │   ├── Recep_Hello.mp3
+│   │   └── Recep_IWillBeHelpingYou.mp3
+│   ├── Sound_Audio_Files/
+│   │   ├── Keyboard.mp3
+│   │   ├── MaleNPC_Mhhm.mp3
+│   │   ├── MaleNPC_Ok.mp3
+│   │   ├── Recep_CheckedInOnline.mp3
+│   │   ├── Recep_Hello.mp3
+│   │   ├── Recep_IWillBeHelpingYou.mp3
+│   │   ├── Recep_OneMoment.mp3
+│   │   ├── Recep_SystemIsSlow.mp3
+│   │   └── Recep_WithYouShortly.mp3
+│   └── README.md
+├── Cybersickness/
+│   ├── cybersickness.csv
+│   └── README.md
+├── Demographics/
+│   ├── demographics.csv
+│   └── README.md
+├── FDS/
+│   ├── post_fds.csv
+│   ├── pre_fds.csv
+│   └── README.md
+├── NASA_TLX/
+│   ├── nasatlx.csv
+│   └── README.md
+├── SUS/
+│   ├── README.md
+│   └── sus.csv
+├── TreatmentResponses/
+│   ├── README.md
+│   └── TreatmentResponses.csv
+├── VRData/
+│   ├── 0GR0B/
+│   │   ├── 0GR0B_NOTIFICATION/
+│   │   │   ├── EyeGazeLog_NOTIFICATION.csv
+│   │   │   ├── HeadPositionLog_NOTIFICATION.csv
+│   │   │   ├── LeftHandLog_NOTIFICATION.csv
+│   │   │   └── RightHandLog_NOTIFICATION.csv
+│   │   └── 0GR0B_WITHOUT_NOTIFICATION/
+│   │       ├── EyeGazeLog_WITHOUT_NOTIFICATION.csv
+│   │       ├── HeadPositionLog_WITHOUT_NOTIFICATION.csv
+│   │       ├── LeftHandLog_WITHOUT_NOTIFICATION.csv
+│   │       └── RightHandLog_WITHOUT_NOTIFICATION.csv
+│   └── README.md
+├── dictionary.csv
+├── LICENSE
+├── README.md
+└── vrdata_frame_summary.py
 ```
 ## Data Dictionary
 The file [dictionary.csv](https://github.com/Terascale-All-sensing-Research-Studio/vr-queue-waiting-sound-dataset/blob/main/dictionary.csv) provides a summary of the data found in the following CSV files in our dataset: 
