@@ -8,13 +8,13 @@ We provide the differences in the audio assets used in each treatment below. **P
 
 | Audio Asset Name            | With Notification |	Without Notification  |	
 | ----------------------------| ----------------- | --------------------- |
-|  Keyboard.mp3               | Present           | Present               |
+| Keyboard.mp3                | Present           | Present               |
 │ MaleNPC_Mhhm.mp3            | Present           | Present               |
 │ MaleNPC_Ok.mp3              | Present           | Present               |
 │ Recep_CheckedInOnline.mp3   | Present           | Present               |
 │ Recep_Hello.mp3             | Present           | Present               |
 │ Recep_IWillBeHelpingYou.mp3 | Present           | Present               |
-│ Recep_OneMoment.mp3         | Present           | Absent               |
-│ Recep_SystemIsSlow.mp3      | Present           | Absent               |
-│ Recep_WithYouShortly.mp3    | Present           | Absent               |
+│ Recep_OneMoment.mp3         | Present           | Absent                |
+│ Recep_SystemIsSlow.mp3      | Present           | Absent                |
+│ Recep_WithYouShortly.mp3    | Present           | Absent                |
  
