@@ -39,38 +39,39 @@ The dataset is organized into the following folders:
 We provide the directory tree below for the entire repository and the tree for one example participant (0GR0B) in the VRData folder:
 
 ```
+vr-queue-waiting-sound-dataset/
 ├── Assets/
 │   ├── No_Sound_Audio_Files/
 │   │   ├── Keyboard.mp3
-│   │   ├── MaleNPC_Mhhm.mp3
-│   │   ├── MaleNPC_Ok.mp3
 │   │   ├── Recep_CheckedInOnline.mp3
 │   │   ├── Recep_Hello.mp3
 │   │   └── Recep_IWillBeHelpingYou.mp3
-│   ├── Sound_Audio_Files/
-│   │   ├── Keyboard.mp3
-│   │   ├── MaleNPC_Mhhm.mp3
-│   │   ├── MaleNPC_Ok.mp3
-│   │   ├── Recep_CheckedInOnline.mp3
-│   │   ├── Recep_Hello.mp3
-│   │   ├── Recep_IWillBeHelpingYou.mp3
-│   │   ├── Recep_OneMoment.mp3
-│   │   ├── Recep_SystemIsSlow.mp3
-│   │   └── Recep_WithYouShortly.mp3
-│   └── README.md
+│   ├── README.md
+│   └── Sound_Audio_Files/
+│       ├── Keyboard.mp3
+│       ├── MaleNPC_Mhhm.mp3
+│       ├── MaleNPC_Ok.mp3
+│       ├── Recep_CheckedInOnline.mp3
+│       ├── Recep_Hello.mp3
+│       ├── Recep_IWillBeHelpingYou.mp3
+│       ├── Recep_OneMoment.mp3
+│       ├── Recep_SystemIsSlow.mp3
+│       └── Recep_WithYouShortly.mp3
 ├── Cybersickness/
-│   ├── cybersickness.csv
-│   └── README.md
+│   ├── README.md
+│   └── cybersickness.csv
 ├── Demographics/
-│   ├── demographics.csv
-│   └── README.md
+│   ├── README.md
+│   └── demographics.csv
 ├── FDS/
+│   ├── README.md
 │   ├── post_fds.csv
-│   ├── pre_fds.csv
-│   └── README.md
+│   └── pre_fds.csv
+├── LICENSE
 ├── NASA_TLX/
-│   ├── nasatlx.csv
-│   └── README.md
+│   ├── README.md
+│   └── nasatlx.csv
+├── README.md
 ├── SUS/
 │   ├── README.md
 │   └── sus.csv
@@ -89,12 +90,11 @@ We provide the directory tree below for the entire repository and the tree for o
 │   │       ├── HeadPositionLog_WITHOUT_NOTIFICATION.csv
 │   │       ├── LeftHandLog_WITHOUT_NOTIFICATION.csv
 │   │       └── RightHandLog_WITHOUT_NOTIFICATION.csv
-│   └── README.md
+│   ├── README.md
 ├── dictionary.csv
-├── LICENSE
-├── README.md
 └── vrdata_frame_summary.py
 ```
+
 ## Data Dictionary
 The file [dictionary.csv](https://github.com/Terascale-All-sensing-Research-Studio/vr-queue-waiting-sound-dataset/blob/main/dictionary.csv) provides a summary of the data found in the following CSV files in our dataset: 
 * [Cybersickess/cybersickness.csv](https://github.com/Terascale-All-sensing-Research-Studio/vr-queue-waiting-sound-dataset/blob/main/Cybersickness/cybersickness.csv)
