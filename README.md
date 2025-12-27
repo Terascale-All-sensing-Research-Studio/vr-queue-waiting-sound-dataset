@@ -36,48 +36,45 @@ The dataset is organized into the following folders:
 | [VRData](https://github.com/Terascale-All-sensing-Research-Studio/vr-queue-waiting-sound-dataset/blob/main/VRData/)	| Yes	| CSV	| Contains 30 subfolders that represents each participant. Each subfolder is named with the unique 5-character ID. Within each participant subfolder there are two additional subfolders named ParticipantID_NOFICATION and ParticipantID_WITHOUT_NOTIFICATION. Here Participant_ID is the unique 5-character ID and NOTIFICATION and WITHOUT_NOTIFICATION indicates that the participant was and was not informed about the reason for the delay respectively. Within the ParticipantID_NOFICATION and ParticipantID_WITHOUT_NOTIFICATION subfolders are four CSV files for Eye Gaze (EyeGazeLog), Head Position and Orientation (HeadPosition), Left Hand (LeftHandLog), and Right Hand (RightHandLog). Thus, each participant has 8 CSV files. |
 
 ## Directory Tree
-We provide the directory tree below for the entire repository and the tree for one example participant (0GR0B) in the VRData folder:
+We provide the directory tree below for the repository and the tree for one example participant (0GR0B) in the VRData folder:
 
 ```
-vr-queue-waiting-sound-dataset/
 ├── Assets/
 │   ├── No_Sound_Audio_Files/
 │   │   ├── Keyboard.mp3
 │   │   ├── Recep_CheckedInOnline.mp3
 │   │   ├── Recep_Hello.mp3
 │   │   └── Recep_IWillBeHelpingYou.mp3
-│   ├── README.md
-│   └── Sound_Audio_Files/
-│       ├── Keyboard.mp3
-│       ├── MaleNPC_Mhhm.mp3
-│       ├── MaleNPC_Ok.mp3
-│       ├── Recep_CheckedInOnline.mp3
-│       ├── Recep_Hello.mp3
-│       ├── Recep_IWillBeHelpingYou.mp3
-│       ├── Recep_OneMoment.mp3
-│       ├── Recep_SystemIsSlow.mp3
-│       └── Recep_WithYouShortly.mp3
+│   ├── Sound_Audio_Files/
+│   │   ├── Keyboard.mp3
+│   │   ├── MaleNPC_Mhhm.mp3
+│   │   ├── MaleNPC_Ok.mp3
+│   │   ├── Recep_CheckedInOnline.mp3
+│   │   ├── Recep_Hello.mp3
+│   │   ├── Recep_IWillBeHelpingYou.mp3
+│   │   ├── Recep_OneMoment.mp3
+│   │   ├── Recep_SystemIsSlow.mp3
+│   │   └── Recep_WithYouShortly.mp3
+│   └── README.md
 ├── Cybersickness/
-│   ├── README.md
-│   └── cybersickness.csv
+│   ├── cybersickness.csv
+│   └── README.md
 ├── Demographics/
-│   ├── README.md
-│   └── demographics.csv
+│   ├── demographics.cs
+│   └── README.mdv
 ├── FDS/
-│   ├── README.md
 │   ├── post_fds.csv
-│   └── pre_fds.csv
-├── LICENSE
+│   ├── pre_fds.csv
+│   └── README.md
 ├── NASA_TLX/
-│   ├── README.md
-│   └── nasatlx.csv
-├── README.md
+│   ├── nasatlx.csv
+│   └── README.md
 ├── SUS/
-│   ├── README.md
-│   └── sus.csv
+│   ├── sus.csv
+│   └── README.md
 ├── TreatmentResponses/
-│   ├── README.md
-│   └── TreatmentResponses.csv
+│   ├── TreatmentResponses.csv
+│   └── README.md
 ├── VRData/
 │   ├── 0GR0B/
 │   │   ├── 0GR0B_NOTIFICATION/
@@ -90,8 +87,10 @@ vr-queue-waiting-sound-dataset/
 │   │       ├── HeadPositionLog_WITHOUT_NOTIFICATION.csv
 │   │       ├── LeftHandLog_WITHOUT_NOTIFICATION.csv
 │   │       └── RightHandLog_WITHOUT_NOTIFICATION.csv
-│   ├── README.md
+│   └── README.md
 ├── dictionary.csv
+├── LICENSE
+├── README.md
 └── vrdata_frame_summary.py
 ```
 
