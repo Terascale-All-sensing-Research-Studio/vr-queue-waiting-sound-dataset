@@ -118,7 +118,7 @@ The minimum (Min), maximum (Max), and average (Mean) frame rate, as frames per s
 | Treatment | Type of Data | Min | Max | Mean | SD |
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | With Notification |	Head | 67.54 | 73.87 | 71.11 | 0.96 |
-| |	Eye Gaze | 66.32 | 73.14 | 70.59 | 1.2 |
+| |	Eye Gaze | 66.32 | 73.14 | 70.59 | 1.20 |
 | | Right Hand | 67.54 | 73.87 | 71.12 | 0.97 | 
 | | Left Hand | 67.54 | 73.87 | 71.12 | 0.97 |
 | Without Notification	| Head | 70.07 | 72.50 | 71.08 | 0.43
