@@ -46,3 +46,5 @@ VRData/
             ├── LeftHandLog_WITHOUT_NOTIFICATION.csv
             └── RightHandLog_WITHOUT_NOTIFICATION.csv
 ```
+
+![Top Down View](https://github.com/Terascale-All-sensing-Research-Studio/vr-queue-waiting-sound-dataset/tree/main/VRData/top_down_view.png)
