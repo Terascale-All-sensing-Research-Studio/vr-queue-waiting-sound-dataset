@@ -30,6 +30,7 @@ The content stored in each of these 8 CSV files per participant are as follows:
 | LeftHandLog_WITHOUT_NOTIFICATION.csv	| **Timestamp(ns):** Epoch time stamp for when the left hand movement was recorded.<br> **GameTime:** Game time stamp for when the left hand movement was recorded.<br> **LeftHandPosition:** x, y, z position of the left hand.<br> **LeftHandRotation:** X, Y, and Z rotation of the left hand. |
 | RightHandLog_WITHOUT_NOTIFICATION.csv	| **Timestamp(ns):** Epoch time stamp for when the right hand movement was recorded.<br> **GameTime:** Game time stamp for when the right hand movement was recorded.<br> **RightHandPosition:** x, y, z position of the right hand.<br> **RightHandRotation:** X, Y, and Z rotation of the right hand. |
 
+## Participant Directory Tree
 We provide the directory tree below for one example participant (0GR0B):
 
 ```
@@ -46,5 +47,6 @@ VRData/
             ├── LeftHandLog_WITHOUT_NOTIFICATION.csv
             └── RightHandLog_WITHOUT_NOTIFICATION.csv
 ```
-
+## Object Names
+Each EyeGazeLog_WITHOUT_NOTIFICATION.csv and EyeGazeLog_WITH_NOTIFICATION.csv contains a column titled ObjectName that stores the name of the object being observed. 
 ![Top Down View](top_down_view.png)
