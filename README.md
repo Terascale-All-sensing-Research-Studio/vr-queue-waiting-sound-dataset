@@ -70,6 +70,9 @@ We provide the directory tree below for the repository and the tree for one exam
 ├── NASA_TLX/
 │   ├── nasatlx.csv
 │   └── README.md
+├── ObjectNames/
+│   ├── top_down_view.png
+│   └── README.md
 ├── SUS/
 │   ├── sus.csv
 │   └── README.md
