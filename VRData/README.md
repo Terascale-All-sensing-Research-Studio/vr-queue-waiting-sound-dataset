@@ -99,14 +99,14 @@ The following ObjectNames are not labeled in the image as they are too small to 
 * mouse_2
 * socket_reception_desk
 
-The following ObjectNames represent the doorways in the scene. They are not labeled in the image, however, the names are descriptive to the object:
+The following ObjectNames represent the doorways in the scene. They are not labeled in the image, however, the names are descriptive:
 * doorway_mens_restroom
 * doorway_reception
 * doorway_right_hallway
 * doorway_sofas
 * doorway_womens_restroom
 
-The following ObjectNames represent the walls in the scene. They are not labeled in the image, however, the suffix (e.g. _firebox) provides a mapping to the ObjectName in the Top Down Image. Thus, in this example, wall_firebox represents the wall behind the firebox object in the scene.   
+The following ObjectNames represent the walls. They are not labeled in the image, however, the suffix (e.g. _firebox) provides a mapping to the ObjectName in the Top Down Image. Thus, in this example, the ObjectName wall_firebox represents the wall behind the firebox in the scene.   
 * wall_firebox
 * wall_nature_painting
 * wall_reception_desk
