@@ -91,3 +91,11 @@ The list of ObjectNames visible in the Top Down View above are listed below:
 * water_dispenser
 * wipes
 * wipes_coffee_table
+
+The following objects are not labeled in the image as they are too small to see, however, the names are descriptive to the object:
+* keyboard_1
+* keyboard_2
+* mouse_1
+* mouse_2
+* socket_reception_desk
+
