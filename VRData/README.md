@@ -17,7 +17,7 @@ Each of the 30 folders here represents a single participant. The folder is named
 | LeftHandLog_ WITHOUT_NOTIFICATION.csv	| ParticipantID/ParticipantID_WITHOUT_NOTIFICATION |
 | RightHandLog_ WITHOUT_NOTIFICATION.csv	| ParticipantID/ParticipantID_WITHOUT_NOTIFICATION |
 
-The content stored in each of these 8 CSV files per participant are as follows:
+The folder [ObjectNames](https://github.com/Terascale-All-sensing-Research-Studio/vr-queue-waiting-sound-dataset/blob/main/ObjectNames/) contains a top down view of the scene along with a list of object names. These object names refer to the values found in the **ObjectName** column in the EyeGazeLog_NOTIFICATION.csv and EyeGazeLog_WITHOUT_NOTIFICATION.csv files for each participant. The content stored in each of the 8 CSV files per participant are as follows:
 
 | Filename |	VariableName: Content |
 | -------- | -------- |
