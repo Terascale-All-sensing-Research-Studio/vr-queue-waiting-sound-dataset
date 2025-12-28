@@ -48,7 +48,7 @@ VRData/
             └── RightHandLog_WITHOUT_NOTIFICATION.csv
 ```
 ## Object Names
-Each EyeGazeLog_WITHOUT_NOTIFICATION.csv and EyeGazeLog_NOTIFICATION.csv contains a column titled ObjectName that stores the name of the object being observed. [The Top Down View](#Top-Down-View) provides a bird's eye view of the scene with the ObjectNames for each object. 
+Each EyeGazeLog_WITHOUT_NOTIFICATION.csv and EyeGazeLog_NOTIFICATION.csv contains a column titled ObjectName that stores the name of the object being observed. [The Top Down View](#Top-Down-View) provides a bird's eye view of the scene with the ObjectNames for each object. We label the location where the participant spawns as **Participant Spawn Point**. 
 
 ### Top Down View
 ![Top Down View](top_down_view.png)
