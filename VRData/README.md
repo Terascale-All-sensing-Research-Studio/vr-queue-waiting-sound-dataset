@@ -53,7 +53,7 @@ Each EyeGazeLog_WITHOUT_NOTIFICATION.csv and EyeGazeLog_NOTIFICATION.csv contain
 ### Top Down View
 ![Top Down View](top_down_view.png)
 
-The list of ObjectNames visible in the Top Down View above are listed below:
+The following ObjectNames are visible in the Top Down View above:
 * chair_empty1
 * chair_empty2
 * chair_empty3
@@ -92,10 +92,26 @@ The list of ObjectNames visible in the Top Down View above are listed below:
 * wipes
 * wipes_coffee_table
 
-The following objects are not labeled in the image as they are too small to see, however, the names are descriptive to the object:
+The following ObjectNames are not labeled in the image as they are too small to see, however, the names are descriptive to the object:
 * keyboard_1
 * keyboard_2
 * mouse_1
 * mouse_2
 * socket_reception_desk
 
+The following ObjectNames represent the doorways in the scene. They are not labeled in the image, however, the names are descriptive to the object:
+* doorway_mens_restroom
+* doorway_reception
+* doorway_right_hallway
+* doorway_sofas
+* doorway_womens_restroom
+
+The following ObjectNames represent the walls in the scene. They are not labeled in the image, however, the suffix (e.g. _firebox) provides a mapping to the ObjectName in the Top Down Image. Thus, in this example, wall_firebox represents the wall behind the firebox object in the scene.   
+* wall_firebox
+* wall_nature_painting
+* wall_reception_desk
+* wall_redflower painting
+* wall_restrooms
+* wall_shelf
+* wall_sunflower_painting
+* wall_water_dispenser
