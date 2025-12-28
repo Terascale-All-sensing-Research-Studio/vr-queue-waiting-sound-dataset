@@ -71,5 +71,6 @@ The following ObjectNames represent the front and side of the receptionist's des
 * reception_desk_front
 * reception_desk_side
 
-The following ObjectNames represent the ceiling of the doctor's office receptionist area. They are not labeled in the image.
+The following ObjectNames represent the ceiling and floor of the doctor's office receptionist area. They are not labeled in the image.
 * ceiling
+* floor
