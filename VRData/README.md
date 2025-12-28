@@ -115,3 +115,8 @@ The following ObjectNames represent the walls. They are not labeled in the image
 * wall_shelf
 * wall_sunflower_painting
 * wall_water_dispenser
+
+The following ObjectNames represent the front and side of the receptionist's desk. They are not labeled in the image. 
+* reception_desk_front
+* reception_desk_side
+
