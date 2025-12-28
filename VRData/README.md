@@ -52,3 +52,42 @@ Each EyeGazeLog_WITHOUT_NOTIFICATION.csv and EyeGazeLog_NOTIFICATION.csv contain
 
 ### Top Down View
 ![Top Down View](top_down_view.png)
+
+The list of objects visible in the Top Down View above are listed below:
+* chair_empty1
+* chair_empty2
+* chair_empty3
+* chair_receptionist
+* chair_receptionist2sitting
+* clipboard_1
+* clipboard_2
+* coffee_table
+* column_chairs
+* column_exit_button
+* column_sofas
+* column_therapy_cart
+* computer_monitor_1
+* computer_monitor_2
+* cuvette
+* exit_button
+* file_cabinet
+* firebox
+* magazines_coffee_table
+* nature_painting
+* pen
+* plant_reception_front
+* plant_reception_side
+* plant_sofas
+* receptionist
+* redflower_painting
+* restrooms
+* shelf
+* sofa
+* standing_white_male_40
+* sunflower_painting
+* telephone
+* therapy_cart
+* trashbin
+* water_dispenser
+* wipes
+* wipes_coffee_table
