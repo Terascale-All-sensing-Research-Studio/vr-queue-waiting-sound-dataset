@@ -26,7 +26,7 @@ The dataset is organized into the following folders:
 
 | FolderName |	SubFolders |	DataType |	Contents |
 | ------------- | ------------- | ------------- | ------------- |
-| [Assets](https://github.com/Terascale-All-sensing-Research-Studio/vr-queue-waiting-sound-dataset/blob/main/Assets/) | Yes | MP3 | Contains two subfolders, namely [No_Sound_Audio_Files](https://github.com/Terascale-All-sensing-Research-Studio/vr-queue-waiting-sound-dataset/blob/main/Assets/No_Sound_Audio_Files) and [Sound_Audio_Files](https://github.com/Terascale-All-sensing-Research-Studio/vr-queue-waiting-sound-dataset/blob/main/Assets/Sound_Audio_Files). The folder [Sound_Audio_Files](https://github.com/Terascale-All-sensing-Research-Studio/vr-queue-waiting-sound-dataset/blob/main/Assets/Sound_Audio_Files) contains all the audio assets in MP3 format for the With Notification treatment. The folder [No_Sound_Audio_Files](https://github.com/Terascale-All-sensing-Research-Studio/vr-queue-waiting-sound-dataset/blob/main/Assets/No_Sound_Audio_Files) contains all the audio assets in MP3 format for the Without Notification treatment. The audio files are generated using [ElevenLabs](https://elevenlabs.io/). 
+| [Assets](https://github.com/Terascale-All-sensing-Research-Studio/vr-queue-waiting-sound-dataset/blob/main/Assets/) | Yes | MP3 | Contains two subfolders, namely [No_Sound_Audio_Files](https://github.com/Terascale-All-sensing-Research-Studio/vr-queue-waiting-sound-dataset/blob/main/Assets/No_Sound_Audio_Files) and [Sound_Audio_Files](https://github.com/Terascale-All-sensing-Research-Studio/vr-queue-waiting-sound-dataset/blob/main/Assets/Sound_Audio_Files). The folder [Sound_Audio_Files](https://github.com/Terascale-All-sensing-Research-Studio/vr-queue-waiting-sound-dataset/blob/main/Assets/Sound_Audio_Files) contains all the audio assets in MP3 format for the With Notification treatment. The folder [No_Sound_Audio_Files](https://github.com/Terascale-All-sensing-Research-Studio/vr-queue-waiting-sound-dataset/blob/main/Assets/No_Sound_Audio_Files) contains all the audio assets in MP3 format for the Without Notification treatment. The audio files are generated using [ElevenLabs](https://elevenlabs.io/). Each audio file that contains spoken content includes a _Transcript.txt file that provides the textual audio content.
 | [Cybersickness](https://github.com/Terascale-All-sensing-Research-Studio/vr-queue-waiting-sound-dataset/blob/main/Cybersickness/) |	None |	CSV	| Participant responses to the standard Virtual Reality Sickness Questionnaire (VRSQ) are stored in a single CSV file called [cybersickness.csv](https://github.com/Terascale-All-sensing-Research-Studio/vr-queue-waiting-sound-dataset/blob/main/Cybersickness/cybersickness.csv). Each participant is assigned a unique 5-character ID. |
 | [Demographics](https://github.com/Terascale-All-sensing-Research-Studio/vr-queue-waiting-sound-dataset/blob/main/Demographics/) |	None |	CSV	| Participant demographics consisting of: age, ethnicity, race, self-identified gender, education level, whether they wear glasses, if the glasses are worn for reading, if they wear contacts, how frequently they play video games, what type of video games they play, how frequently they use VR, if they own a VR device, what type of VR devices they use, how frequently they use telehealth services, and what telehealth services they use are stored in a single CSV file called [demographics.csv](https://github.com/Terascale-All-sensing-Research-Studio/vr-queue-waiting-sound-dataset/blob/main/Demographics/demographics.csv). Each participant is assigned a unique 5-character ID. |
 | [FDS](https://github.com/Terascale-All-sensing-Research-Studio/vr-queue-waiting-sound-dataset/blob/main/FDS/)	| None |	CSV |	Participant responses to the standard Frustration Discomfort Scale (FDS). The CSV files are called [pre_fds.csv](https://github.com/Terascale-All-sensing-Research-Studio/vr-queue-waiting-sound-dataset/blob/main/FDS/pre_fds.csv) and [post_fds.csv](https://github.com/Terascale-All-sensing-Research-Studio/vr-queue-waiting-sound-dataset/blob/main/FDS/post_fds.csv) to indicate that they were administered prior to and after the immersion. Each participant is assigned a unique 5-character ID. |
@@ -44,18 +44,27 @@ We provide the directory tree below for the repository and the tree for one exam
 │   ├── No_Sound_Audio_Files/
 │   │   ├── Keyboard.mp3
 │   │   ├── Recep_CheckedInOnline.mp3
+│   │   ├── Recep_CheckedInOnline_Transcript.txt
 │   │   ├── Recep_Hello.mp3
+│   │   ├── Recep_Hello_Transcript.txt
 │   │   └── Recep_IWillBeHelpingYou.mp3
+│   │   └── Recep_IWillBeHelpingYou_Transcript.txt
 │   ├── Sound_Audio_Files/
 │   │   ├── Keyboard.mp3
 │   │   ├── MaleNPC_Mhhm.mp3
 │   │   ├── MaleNPC_Ok.mp3
 │   │   ├── Recep_CheckedInOnline.mp3
+│   │   ├── Recep_CheckedInOnline_Transcript.txt
 │   │   ├── Recep_Hello.mp3
+│   │   ├── Recep_Hello_Transcript.txt
 │   │   ├── Recep_IWillBeHelpingYou.mp3
+│   │   ├── Recep_IWillBeHelpingYou_Transcript.txt
 │   │   ├── Recep_OneMoment.mp3
+│   │   ├── Recep_OneMoment_Transcript.txt
 │   │   ├── Recep_SystemIsSlow.mp3
-│   │   └── Recep_WithYouShortly.mp3
+│   │   ├── Recep_SystemIsSlow_Transcript.txt
+│   │   ├── Recep_WithYouShortly.mp3
+│   │   └── Recep_WithYouShortly_Transcript.txt
 │   └── README.md
 ├── Cybersickness/
 │   ├── cybersickness.csv
