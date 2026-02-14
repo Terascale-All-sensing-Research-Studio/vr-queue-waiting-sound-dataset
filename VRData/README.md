@@ -17,7 +17,7 @@ Each of the 30 folders here represents a single participant. The folder is named
 | LeftHandLog_ WITHOUT_NOTIFICATION.csv	| ParticipantID/ParticipantID_WITHOUT_NOTIFICATION |
 | RightHandLog_ WITHOUT_NOTIFICATION.csv	| ParticipantID/ParticipantID_WITHOUT_NOTIFICATION |
 
-The content stored in each of these 8 CSV files per participant are as follows:
+The content stored in each of these 8 CSV files per participant are as follows. Epoch times can be compared to understand the temporal difference between treatments for each participant. Position is provided in meters and rotation in degrees. 
 
 | Filename |	VariableName: Content |
 | -------- | -------- |
