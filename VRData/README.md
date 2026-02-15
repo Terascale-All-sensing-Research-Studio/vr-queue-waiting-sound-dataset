@@ -17,7 +17,7 @@ Each of the 30 folders here represents a single participant. The folder is named
 | LeftHandLog_ WITHOUT_NOTIFICATION.csv	| ParticipantID/ParticipantID_WITHOUT_NOTIFICATION |
 | RightHandLog_ WITHOUT_NOTIFICATION.csv	| ParticipantID/ParticipantID_WITHOUT_NOTIFICATION |
 
-The content stored in each of these 8 CSV files per participant are as follows. Epoch times can be compared to understand the temporal difference between treatments for each participant. Position is provided in meters and rotation is provided as Euler angles in degrees. Euler angle rotations are applied in Z, X, Y order and interpreted as extrinsic rotations. The native Unity coordinate system was used, which is a left-handed system with X pointing to the right, Y pointing up, and Z pointing forward. 
+The content stored in each of these 8 CSV files per participant are as follows. Epoch times can be compared to understand the temporal difference between treatments for each participant. Position is provided in meters and rotation is provided as Euler angles in degrees. Unity applies Euler angle rotations in Z, X, Y order and the rotations are interpreted as extrinsic rotations. The native Unity coordinate system was used, which is a left-handed system with X pointing to the right, Y pointing up, and Z pointing forward. 
 
 | Filename |	VariableName: Content |
 | -------- | -------- |
