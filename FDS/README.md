@@ -30,8 +30,6 @@ The standard Frustration Discomfort Scale (FDS) was administered at the [start](
 * I can’t tolerate criticism especially when I know I’m right
 * I can’t stand to lose control of my feelings
 * I can’t tolerate any lapse in my self-discipline
-* I can’t tolerate being overlooked
-* I can’t bear to have been treated unjustly
 
 | Dataset Column | Question | Response Value | 
 | ------------- | ------------- | ------------- |
@@ -64,8 +62,6 @@ The standard Frustration Discomfort Scale (FDS) was administered at the [start](
 | 27 | I can’t tolerate criticism especially when I know I’m right | Absent; Mild; Moderate; Strong; Very Strong |
 | 28 | I can’t stand to lose control of my feelings | Absent; Mild; Moderate; Strong; Very Strong |
 | 29 | I can’t tolerate any lapse in my self-discipline | Absent; Mild; Moderate; Strong; Very Strong |
-| 30 | I can’t tolerate being overlooked | Absent; Mild; Moderate; Strong; Very Strong |
-| 31 | I can’t bear to have been treated unjustly | Absent; Mild; Moderate; Strong; Very Strong |
   
 ## References
 <a id="1">[1]</a>
