@@ -13,6 +13,8 @@
 
 [Dataset Frame Rate Summary](#dataset-frame-rate-summary)
 
+[Citation](#citation)
+
 ## Description
 The dataset consists of 30 participants standing in queue in a virtual doctor’s office receptionist area designed using Unity 2022.3.9 f1. Each participant stands in the queue for 3-minutes before approaching the virtual receptionist to confirm their doctor’s appointment. Each participant provides data across two treatments, once when the virtual receptionist informs them on why there is a delay and once when the receptionist does not. The reason for the delay is stated as a problem with the virtual receptionist’s computer system. Participants complete both treatments, however, the order of assignment of treatments is randomized. Data is collected from within the VR environment using a Meta Quest Pro. Prior to immersion into the VR environment, participants complete a demographics form and the Frustration Discomfort Scale. After each treatment, participants answer a 3-question survey on the length of delay, their frustration at the delay measured on a 5-point Likert scale, and their likelihood to exit due to the delay, also measured on a 5-point Likert scale. After both treatments, participants complete a second Frustration Discomfort Scale as well as the NASA Task Load Index, System Usability Scale, and Virtual Reality Sickness Questionnaire. Each participant provides data in a single session lasting 1-hour. For each participant we recorded: eye gaze hit locations, objects viewed per timestamp based on the gaze ray intersections with scene objects, headset position and orientation, and left and right hand position and orientation.   
 
@@ -138,3 +140,17 @@ The minimum (Min), maximum (Max), and average (Mean) frame rate, as frames per s
 | | Eye Gaze | 68.96 | 71.37 | 70.56 | 0.62 | 
 | | Right Hand | 70.06 | 72.50 | 71.10 | 0.43 | 
 | |	Left Hand | 70.06 | 72.50 | 71.10 | 0.43 | 
+
+## Citation
+Please cite the dataset as follows
+
+```
+@article{ibragimov2026dataset,
+  title={Dataset of Perceptions of Waiting in a Virtual Reality (VR) Doctor's Office Receptionist Queue With and Without Notifications on the Reason for a Delay},
+  author={Ibragimov, Elza and Banerjee, Natasha Kholgade and Banerjee, Sean and Shivakumar, Ashutosh},
+  journal={Data in Brief},
+  pages={112681},
+  year={2026},
+  publisher={Elsevier}
+}
+```
