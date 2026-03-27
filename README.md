@@ -106,7 +106,7 @@ We provide the directory tree below for the repository and the tree for one exam
 ├── dictionary.csv
 ├── LICENSE
 ├── README.md
-└── vrdata_frame_summary.py
+└── lcWaitSummary.py
 ```
 
 ## Data Dictionary
