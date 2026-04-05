@@ -46,7 +46,7 @@ VRData/
             ├── LeftHandLog_WITHOUT_NOTIFICATION.csv
             └── RightHandLog_WITHOUT_NOTIFICATION.csv
 ```
-We provide epoch times for each participant and treatment to enable participant to participant comparisions. The table below is provided in ascending order of epoch time. 
+We provide epoch start times for each participant's session and treatment to enable participant to participant comparisions. The table below is provided in ascending order of epoch time. 
 
 | Participant ID | Treatment | Epoch Time |
 | ------- | ------- | ------- |
