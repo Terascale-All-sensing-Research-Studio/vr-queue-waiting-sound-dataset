@@ -2,16 +2,16 @@
 
 The standard System Usability Scale (SUS) was administered at the end of the study [[1]](#1). The SUS consists of the following questions:
 
-* I like to use this system frequently?
-* I find this system to be more complicated than it should be?	
-* I think the system is simple and easy to use?	
-* I need technical support to use this system?	
-* I find the system functioning smoothly and is well-integrated?
-* I think there are a lot of irregularities in the system?	
-* I think most people can learn this system quickly?
-* I find this system to be time-consuming?
-* I feel confident while using this system?	
-* I think there are a lot of things to learn before I can start using this system?
+* I think that I would like to use this system frequently
+* I found the system unnecessarily complex
+* I thought the system was easy to use
+* I think that I would need the support of a technical person to be able to use this system
+* I found the various functions in this system were well integrated
+* I thought there was too much inconsistency in this system
+* I would imagine that most people would learn to use this system very quickly
+* I found the system very cumbersome to use
+* I felt very confident using the system
+* I needed to learn a lot of things before I could get going with this system
 
 | Dataset Column | Question | Response Value | 
 | ------------- | ------------- | ------------- |
